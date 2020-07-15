@@ -1,0 +1,12 @@
+{
+  "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+  "LUISPredictionEndpoint": "https://westus.api.cognitive.microsoft.com/luis/prediction/v4.0-preview/documents/apps/{0}/slots/production/predictText",
+  "LUISCheckOperationStatusEndpoint": "https://westus.api.cognitive.microsoft.com/luis/prediction/v4.0-preview/documents/apps/{0}/slots/production/operations/{1}/predictText/status",
+  "LUISGetResultEndpoint": "https://westus.api.cognitive.microsoft.com/luis/prediction/v4.0-preview/documents/apps/{0}/slots/production/operations/{1}/predictText",
+
+  "LUISAppId": "",
+  "LUISPredictionKey": "",
+  "EndpointBaseUri": "https://westus.api.cognitive.microsoft.com/",
+  "ModelSlot": "Production",
+  "TestFilesFolder": "C:\\users\\franctum\\Desktop\\testfiles"
+}
